@@ -1,19 +1,5 @@
 ﻿
 
-        private void Form_Load(object sender, EventArgs e)
-        {
-            cmbJK.Items.Add("L");
-            cmbJK.Items.Add("P");
-
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.MultiSelect = false;
-            dataGridView1.ReadOnly = true;
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
-            dataGridView1.CellClick += dataGridView1_CellClick;
-        }
-
         private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
