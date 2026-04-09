@@ -1,16 +1,5 @@
 ﻿
 
-        private void ClearForm()
-        {
-            txtNIM.Clear();
-            txtNama.Clear();
-            cmbJK.SelectedIndex = -1;
-            txtAlamat.Clear();
-            txtKodeProdi.Clear();
-            dtpTanggalLahir.Value = DateTime.Now;
-            txtNIM.Focus();
-        }
-
         private void Form_Load(object sender, EventArgs e)
         {
             cmbJK.Items.Add("L");
